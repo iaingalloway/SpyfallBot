@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<RuleSet Name="SpyfallBot" Description="This rule set contains all relevant rules as errors." ToolsVersion="10.0">
+  <IncludeAll Action="Error" />
+  <Rules AnalyzerId="Microsoft.Analyzers.ManagedCodeAnalysis" RuleNamespace="Microsoft.Rules.Managed">
+    <Rule Id="CA1006" Action="None" />
+    <Rule Id="CA1014" Action="None" />
+    <Rule Id="CA1017" Action="None" />
+    <Rule Id="CA1020" Action="None" />
+    <Rule Id="CA1032" Action="None" />
+    <Rule Id="CA1040" Action="None" />
+    <Rule Id="CA1053" Action="None" />
+    <Rule Id="CA1305" Action="None" />
+    <Rule Id="CA1405" Action="None" />
+    <Rule Id="CA1702" Action="None" />
+    <Rule Id="CA1711" Action="None" />
+    <Rule Id="CA1822" Action="None" />
+    <Rule Id="CA2210" Action="None" />
+  </Rules>
+  <Rules AnalyzerId="StyleCop.Analyzers" RuleNamespace="StyleCop.Analyzers">
+    <Rule Id="SA1127" Action="None" />
+    <Rule Id="SA1404" Action="None" />
+    <Rule Id="SA1600" Action="None" />
+    <Rule Id="SA1609" Action="None" />
+    <Rule Id="SA1633" Action="None" />
+    <Rule Id="SA1652" Action="None" />
+  </Rules>
+  <Rules AnalyzerId="Microsoft.CodeAnalysis.CSharp.Features" RuleNamespace="Microsoft.CodeAnalysis.CSharp.Features">
+    <Rule Id="IDE0001" Action="None" />
+    <Rule Id="IDE0003" Action="None" />
+  </Rules>
+</RuleSet>
